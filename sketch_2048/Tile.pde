@@ -70,7 +70,7 @@ class Tile {
   }
   
   void setColour() {
-
+    
   }
 
   Tile clone() {
