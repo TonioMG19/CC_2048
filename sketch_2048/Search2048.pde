@@ -47,7 +47,23 @@ void draw() {
 void keyPressed() {
 
   if (released) {
-  }
+     if(key=='d'){
+      p.moveDirection.x = 1;
+      p.moveTiles();
+     }
+     if(key=='q'){
+      p.moveDirection.x = -1;
+      p.moveTiles();
+     }
+     if(key=='s'){
+      p.moveDirection.y = 1;
+      p.moveTiles();
+     }
+     if(key=='z'){
+      p.moveDirection.x = 1;
+      p.moveTiles();
+     }
+  }  
 }
 
 void keyReleased(){
