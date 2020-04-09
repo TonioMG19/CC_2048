@@ -71,27 +71,27 @@ class Tile {
   
   void setColour() {
     switch(value){
-      case 2: colour = "red";
+      case 2: colour = #FFFFE4;
         break;
-      case 4:
+      case 4:  colour = #FFFFAC;
         break;
-      case 8:
+      case 8: colour = #FFA764;
         break;
-      case 16:
+      case 16: colour = #FF7F6C;
         break;
-      case 32:
+      case 32: colour = #FF476C;
         break;
-      case 64:
+      case 64: colour = #FF5FE4;
         break;
-      case 128:
+      case 128: colour = #C75FFF;
         break;
-      case 256:
+      case 256: colour = #8700FF;
         break;
-      case 512:
+      case 512: colour = #5F00FF;
         break;
-      case 1024:
+      case 1024: colour = #1F00FF;
         break;
-      case 2048:
+      case 2048: colour = #200097;
         break;
     }
   }
