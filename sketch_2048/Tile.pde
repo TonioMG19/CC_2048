@@ -40,7 +40,7 @@ class Tile {
       }
       textAlign(CENTER, CENTER);
       textSize(50);
-      text(value = 0, pixelPos.x+100, pixelPos.y+100);
+      text(value, pixelPos.x+100, pixelPos.y+100);
     }
   }
 
@@ -70,7 +70,30 @@ class Tile {
   }
   
   void setColour() {
-    
+    switch(value){
+      case 2: colour = "red";
+        break;
+      case 4:
+        break;
+      case 8:
+        break;
+      case 16:
+        break;
+      case 32:
+        break;
+      case 64:
+        break;
+      case 128:
+        break;
+      case 256:
+        break;
+      case 512:
+        break;
+      case 1024:
+        break;
+      case 2048:
+        break;
+    }
   }
 
   Tile clone() {
