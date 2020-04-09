@@ -47,21 +47,24 @@ void draw() {
 void keyPressed() {
 
   if (released) {
-     if(key=='d'){
+     if(keyCode==RIGHT){
       p.moveDirection.x = 1;
       p.moveTiles();
      }
-     if(key=='q'){
+     if(keyCode==LEFT){
       p.moveDirection.x = -1;
       p.moveTiles();
      }
-     if(key=='s'){
+     if(keyCode==DOWN){
       p.moveDirection.y = 1;
       p.moveTiles();
      }
-     if(key=='z'){
-      p.moveDirection.x = 1;
+     if(keyCode==UP){
+      p.moveDirection.y = -1;
       p.moveTiles();
+     }
+     if(keyCode==ESC){
+       exit();
      }
   }  
 }
